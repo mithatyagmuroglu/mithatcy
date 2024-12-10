@@ -8,4 +8,4 @@ mongoose.connect(Config.Database.URI, {
 }).then(() => {
     console.log("Mongoose connected.")
     require("./bot.js");
-});
+})
